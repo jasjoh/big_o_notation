@@ -63,6 +63,23 @@ function onlyNumsAtEvenIndexes(nums) {
 }
 
 // O(1 + n x (1 + n(1)))
+
+O(
+    1[let] + n[for with i] (
+        1[let] + n[for with j] (
+            1 [subtotal increment]
+        )
+        + 1[subtotals push]
+    )
+    [return]
+)
+
+O(1 + n (1 + n( 1 ) + 1 ) )
+O(1 + n * (n))
+O(1 + n^2)
+O(n^2)
+
+
 function runningSubtotals(nums) {
   let subtotals = [];
 
